@@ -1,21 +1,24 @@
+import Section from "@/src/components/ui/Section";
+
 export default function Home() {
   return (
-    <main>
-      <section id="about" className="min-h-screen p-10 scroll-mt-16">
-        <h1 className="text-4xl font-bold">About Me</h1>
-      </section>
+    <div>
+      <Section id="about">
+        <h1 className="text-4xl font-bold mb-4">About Me</h1>
+        <p>I am a frontend developer...</p>
+      </Section>
 
-      <section id="skills" className="min-h-screen p-10 scroll-mt-16">
-        <h1 className="text-4xl font-bold">Skills</h1>
-      </section>
+      <Section id="skills">
+        <h1 className="text-4xl font-bold mb-4">Skills</h1>
+      </Section>
 
-      <section id="projects" className="min-h-screen p-10 scroll-mt-16">
-        <h1 className="text-4xl font-bold">Projects</h1>
-      </section>
+      <Section id="projects">
+        <h1 className="text-4xl font-bold mb-4">Projects</h1>
+      </Section>
 
-      <section id="contact" className="min-h-screen p-10 scroll-mt-16">
-        <h1 className="text-4xl font-bold">Contact</h1>
-      </section>
-    </main>
+      <Section id="contact">
+        <h1 className="text-4xl font-bold mb-4">Contact</h1>
+      </Section>
+    </div>
   );
 }
