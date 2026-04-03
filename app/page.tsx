@@ -1,12 +1,10 @@
+import About from "@/src/components/sections/About/About";
 import Section from "@/src/components/ui/Section";
 
 export default function Home() {
   return (
     <div>
-      <Section id="about">
-        <h1 className="text-4xl font-bold mb-4">About Me</h1>
-        <p>I am a frontend developer...</p>
-      </Section>
+      <About />
 
       <Section id="skills">
         <h1 className="text-4xl font-bold mb-4">Skills</h1>
